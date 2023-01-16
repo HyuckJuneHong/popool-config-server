@@ -12,57 +12,13 @@ spring:
           uri: git@github.com:HyuckJuneHong/git-local-config.git
           ignoreLocalSshSettings: true
           private-key: |
-            -----BEGIN RSA PRIVATE KEY-----
+            -----BEGIN EC PRIVATE KEY-----
             Proc-Type: 4,ENCRYPTED
-            DEK-Info: AES-128-CBC,212BFA62B667B38DC586EFEDD7EBC31C
+            DEK-Info: AES-128-CBC,0B7DC387C7EB7479C3FA4EFC45E76A8A
 
-            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
-            -----END RSA PRIVATE KEY-----
+            caFFn7BXM7QO3aUMfNmsz4cx3UBl2bktRmdh1cvBnVPBg/YBLCdQNvEHdJKHgXll
+            CtsuDN4zSRfPgdoIYKj5Qa5rrUvybXC+/Pfu5mVIEdODmYFYioizk1Apnpr+DQKb
+            gvabnhMDTe7hCQK1ifXRfKaSlJKKs9AFsrO9wNyk/qQ=
+            -----END EC PRIVATE KEY-----
+
+
