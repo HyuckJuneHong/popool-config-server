@@ -9,16 +9,17 @@ spring:
     config:
       server:
         git:
+          default-label: master
           uri: git@github.com:HyuckJuneHong/git-local-config.git
-          ignoreLocalSshSettings: true
+          ignore-local-ssh-settings: true
           private-key: |
             -----BEGIN EC PRIVATE KEY-----
             Proc-Type: 4,ENCRYPTED
-            DEK-Info: AES-128-CBC,0B7DC387C7EB7479C3FA4EFC45E76A8A
+            DEK-Info: AES-128-CBC,FB93396175B6403FEBBC7A5BB5D96190
 
-            caFFn7BXM7QO3aUMfNmsz4cx3UBl2bktRmdh1cvBnVPBg/YBLCdQNvEHdJKHgXll
-            CtsuDN4zSRfPgdoIYKj5Qa5rrUvybXC+/Pfu5mVIEdODmYFYioizk1Apnpr+DQKb
-            gvabnhMDTe7hCQK1ifXRfKaSlJKKs9AFsrO9wNyk/qQ=
+            yzWmAFkcsIhmLviqoPaVq3DzAr24w912rL3aYtagIpZzQ2AXTuhbPPHyRJpf2Wjy
+            BqDoR5Zd9f0U5tfe0MeXHzxzNV2Cf3gEp8CIZ0vvpbj8HCd4hsWhnyO/h72EG4/H
+            RirpMI4+NlYJR/KKoblbfw0wbsuhuhfq/Wl6K1KWrZ4=
             -----END EC PRIVATE KEY-----
-
-
+          host-key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEmKSENjQEezOmxkZMy7opKgwFB9nkt5YRrYMjNuG5N87uRgg6CLrbo5wAdT/y6v0mKV0U2w0WZ2YB/++Tpockg=
+          host-key-algorithm: ecdsa-sha2-nistp256
